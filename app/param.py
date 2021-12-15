@@ -22,12 +22,12 @@ class Params:
     # Step 1 : set default params
     
     # Grdf params
-    self.grdfUsername = None
-    self.grdfPassword = None
+    self.grdfUsername = 'tom@bard1.fr'
+    self.grdfPassword = '4661Gbvc'
     
     # Mqtt params
-    self.mqttHost = None
-    self.mqttPort = 1883
+    self.mqttHost = '192.168.0.1'
+    self.mqttPort = 8883
     self.mqttClientId = 'gazpar2mqtt'
     self.mqttUsername = None
     self.mqttPassword = None
